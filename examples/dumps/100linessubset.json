@@ -1,0 +1,4 @@
+[
+    {"type":"item","id":"Q140","labels":{"en":{"language":"en","value":"lion"},"es":{"language":"es","value":"león"}},"descriptions":{},"aliases":{},"claims":{"P31":[{"rank":"normal","mainsnak":{"property":"P31","datatype":"wikibase-item","datavalue":{"value":{"id":"Q16521","numeric-id":16521,"entity-type":"item"},"type":"wikibase-entityid"},"snaktype":"value"},"type":"statement"}]},"sitelinks":{}},
+    {"type":"item","id":"Q764","labels":{"en":{"language":"en","value":"fungus"},"es":{"language":"es","value":"Fungi"}},"descriptions":{},"aliases":{},"claims":{"P31":[{"rank":"normal","mainsnak":{"property":"P31","datatype":"wikibase-item","datavalue":{"value":{"id":"Q16521","numeric-id":16521,"entity-type":"item"},"type":"wikibase-entityid"},"snaktype":"value"},"type":"statement"}]},"sitelinks":{}},
+    ]
