@@ -92,7 +92,7 @@ start= @:active_site OR
   wdt:P2175 @:disease * ;
   wdt:P361  @:biological_pathway * ;
   wdt:P361  @:medication * ; 
-  wdt:_361 @:molecular_function *;
+  wdt:P361 @:molecular_function *;
   wdt:P703  @:taxon * ;
   wdt:P3364 @:chemical_compound * ;
   wdt:P2868 @:mechanism_of_action *;
