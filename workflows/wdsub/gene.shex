@@ -9,23 +9,18 @@ PREFIX p: <http://www.wikidata.org/prop/>
 PREFIX ps: <http://www.wikidata.org/prop/statement/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX wd: <http://www.wikidata.org/entity/>
-
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 start = @<Gene_by_ontology> OR @<Gene_by_identifier>
 
 <Gene_by_ontology> {
     p:P31 {
        ps:P31 [wd:Q7187] ;
-       prov:wasDerivedFrom . ;
+       prov:wasDerivedFrom . + ;
     } ;
 }
 
 <Gene_by_identifier> {
-    p:P351 { #entrez gene_id
-       ps:P351 . ;
-    } OR
-    {
-        p:P353 { #HGNC gene symbol
-            ps:P353 . ;
-        }
-    }
+   wdt:P351 . ;
+   } OR {
+     wdt:P353 . ;
 }
