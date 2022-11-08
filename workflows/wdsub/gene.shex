@@ -22,7 +22,7 @@ start = @<Gene_by_ontology> OR @<Gene_by_identifier>
 <Gene_by_identifier> {
     p:P351 { #entrez gene_id
        ps:P351 . ;
-    } OR
+    } OR {
     p:P353 { #HGNC gene symbol
        ps:P353 . ;
     } 
