@@ -11,7 +11,7 @@ echo 'Welcome to WDSub GenWiki!';
 echo 'This script will create a subset for each defined shape.';
 
 echo 'Pulling wdsub docker image...';
-docker pull wesogroup/wdsub:0.0.23;
+docker pull wesogroup/wdsub:0.0.27;
 
 
 
