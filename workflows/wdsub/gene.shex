@@ -27,3 +27,4 @@ start = @<Gene_by_ontology> OR @<Gene_by_identifier>
        ps:P353 . ;
     } 
 }
+}
