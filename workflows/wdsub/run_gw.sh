@@ -21,10 +21,13 @@ do
     dockerID=`docker run -d -v $data_files_path:/data \
         -v $shex_files_path:/shex \
         -v $results_files_path:/dumps \
-        wesogroup/wdsub:0.0.11 dump \
+        wesogroup/wdsub:0.0.27 dump \
         -o /dumps/result_$shex_file_name.json.gz \
         -s /shex/$shex_file_name.shex \
         --processor WDTK \
+        --dumpFormat Turtle \
+        --dumpMode WholeEntity \
+        --schemaFormat ShExC \
         /data/latest-all.json.gz;`
     echo "Subsetting is being created  for ${shex_files_path}/${shex_file_name}.shex";
     echo "Check ${dockerID} for progres" 
