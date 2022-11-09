@@ -12,6 +12,18 @@ start= @:lipids OR @:taxon
    wdt:P234 .+;
    wdt:P235 .+;
    wdt:P703 @:taxon +;
+} OR {
+
+   wdt:P2063 .+;
+   wdt:P234 .+;
+   wdt:P703 @:taxon +;
+
+} OR {
+
+   wdt:P2063 .+;
+   wdt:P235 .+;
+   wdt:P703 @:taxon +;
+
 }
 
 :taxon {
