@@ -1,0 +1,8 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+
+start = @<LipidType>
+
+<LipidType> {
+    wdt:P2063 . +
+}
+
