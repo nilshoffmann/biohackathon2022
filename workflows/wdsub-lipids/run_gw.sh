@@ -23,7 +23,7 @@ do
         -v $shex_files_path:/shex \
         -v $results_files_path:/dumps \
         wesogroup/wdsub:0.0.28 dump \
-        -o /dumps/result_$shex_file_name.json.gz \
+        -o /dumps/result_$shex_file_name.ttl.gz \
         -s /shex/$shex_file_name.shex \
         --processor WDTK \
         --dumpFormat Turtle \
